@@ -1,0 +1,6 @@
+framework module Pods_autoshopei_autoshopeiUITests {
+  umbrella header "Pods-autoshopei-autoshopeiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

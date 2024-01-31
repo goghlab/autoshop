@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438E83382B682FAF0023AEF9 /* autoshopeiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83372B682FAF0023AEF9 /* autoshopeiApp.swift */; };
+		438E833A2B682FAF0023AEF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83392B682FAF0023AEF9 /* ContentView.swift */; };
+		438E833C2B682FAF0023AEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438E833B2B682FAF0023AEF9 /* Assets.xcassets */; };
+		438E833F2B682FAF0023AEF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438E833E2B682FAF0023AEF9 /* Preview Assets.xcassets */; };
+		438E83492B682FB00023AEF9 /* autoshopeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83482B682FB00023AEF9 /* autoshopeiTests.swift */; };
+		438E83532B682FB00023AEF9 /* autoshopeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83522B682FB00023AEF9 /* autoshopeiUITests.swift */; };
+		438E83552B682FB00023AEF9 /* autoshopeiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83542B682FB00023AEF9 /* autoshopeiUITestsLaunchTests.swift */; };
+		438E83622B6835AA0023AEF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 438E83612B6835AA0023AEF9 /* GoogleService-Info.plist */; };
+		438E83642B6836A30023AEF9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83632B6836A30023AEF9 /* OnboardingView.swift */; };
+		438E83682B6836BC0023AEF9 /* MyqrcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83652B6836BC0023AEF9 /* MyqrcodeView.swift */; };
+		438E83692B6836BC0023AEF9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83662B6836BC0023AEF9 /* CartView.swift */; };
+		438E836A2B6836BC0023AEF9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83672B6836BC0023AEF9 /* LoginView.swift */; };
+		438E836D2B6836CA0023AEF9 /* PaymentSetupNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E836B2B6836CA0023AEF9 /* PaymentSetupNoticeView.swift */; };
+		438E836E2B6836CA0023AEF9 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E836C2B6836CA0023AEF9 /* PaymentView.swift */; };
+		438E83712B6836D20023AEF9 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E836F2B6836D20023AEF9 /* SignupView.swift */; };
+		438E83722B6836D20023AEF9 /* ShareButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438E83702B6836D20023AEF9 /* ShareButtonStyle.swift */; };
+		75644BBCD35ED1FDA68D79F7 /* Pods_autoshopeiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E5B36BFBAE3EB5D6EC5AD7 /* Pods_autoshopeiTests.framework */; };
+		BC9FCE7E7BEF37F1AAD1EC40 /* Pods_autoshopei_autoshopeiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489C21B25EE36E98A542765 /* Pods_autoshopei_autoshopeiUITests.framework */; };
+		D3A142A1BDE545C341394E18 /* Pods_autoshopei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7152D1F867A81B5584585CA5 /* Pods_autoshopei.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438E83452B682FB00023AEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438E832C2B682FAF0023AEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438E83332B682FAF0023AEF9;
+			remoteInfo = autoshopei;
+		};
+		438E834F2B682FB00023AEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438E832C2B682FAF0023AEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438E83332B682FAF0023AEF9;
+			remoteInfo = autoshopei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438E83342B682FAF0023AEF9 /* autoshopei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoshopei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E83372B682FAF0023AEF9 /* autoshopeiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoshopeiApp.swift; sourceTree = "<group>"; };
+		438E83392B682FAF0023AEF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		438E833B2B682FAF0023AEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438E833E2B682FAF0023AEF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		438E83442B682FB00023AEF9 /* autoshopeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoshopeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E83482B682FB00023AEF9 /* autoshopeiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoshopeiTests.swift; sourceTree = "<group>"; };
+		438E834E2B682FB00023AEF9 /* autoshopeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoshopeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438E83522B682FB00023AEF9 /* autoshopeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoshopeiUITests.swift; sourceTree = "<group>"; };
+		438E83542B682FB00023AEF9 /* autoshopeiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoshopeiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		438E83612B6835AA0023AEF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../iOS/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		438E83632B6836A30023AEF9 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../iOS/AutoShop/OnboardingView.swift; sourceTree = "<group>"; };
+		438E83652B6836BC0023AEF9 /* MyqrcodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyqrcodeView.swift; path = ../../iOS/AutoShop/MyqrcodeView.swift; sourceTree = "<group>"; };
+		438E83662B6836BC0023AEF9 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartView.swift; path = ../../iOS/AutoShop/CartView.swift; sourceTree = "<group>"; };
+		438E83672B6836BC0023AEF9 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../iOS/AutoShop/LoginView.swift; sourceTree = "<group>"; };
+		438E836B2B6836CA0023AEF9 /* PaymentSetupNoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentSetupNoticeView.swift; path = ../../iOS/AutoShop/PaymentSetupNoticeView.swift; sourceTree = "<group>"; };
+		438E836C2B6836CA0023AEF9 /* PaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentView.swift; path = ../../iOS/AutoShop/PaymentView.swift; sourceTree = "<group>"; };
+		438E836F2B6836D20023AEF9 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupView.swift; path = ../../iOS/AutoShop/SignupView.swift; sourceTree = "<group>"; };
+		438E83702B6836D20023AEF9 /* ShareButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareButtonStyle.swift; path = ../../iOS/AutoShop/ShareButtonStyle.swift; sourceTree = "<group>"; };
+		4DFBD6C455FACAB5E3DF4F33 /* Pods-autoshopei-autoshopeiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopei-autoshopeiUITests.release.xcconfig"; path = "Target Support Files/Pods-autoshopei-autoshopeiUITests/Pods-autoshopei-autoshopeiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64E5B36BFBAE3EB5D6EC5AD7 /* Pods_autoshopeiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoshopeiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7152D1F867A81B5584585CA5 /* Pods_autoshopei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoshopei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8325B0CAD5769E8D5FFE8DE0 /* Pods-autoshopeiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopeiTests.debug.xcconfig"; path = "Target Support Files/Pods-autoshopeiTests/Pods-autoshopeiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D62AE060DDD8D90BAA72889 /* Pods-autoshopei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopei.release.xcconfig"; path = "Target Support Files/Pods-autoshopei/Pods-autoshopei.release.xcconfig"; sourceTree = "<group>"; };
+		951E3DCD13ED2BFF15813C86 /* Pods-autoshopei-autoshopeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopei-autoshopeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-autoshopei-autoshopeiUITests/Pods-autoshopei-autoshopeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC85A082A41B6D8803CE9449 /* Pods-autoshopeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopeiTests.release.xcconfig"; path = "Target Support Files/Pods-autoshopeiTests/Pods-autoshopeiTests.release.xcconfig"; sourceTree = "<group>"; };
+		D15CCD416787A1C013DED42C /* Pods-autoshopei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoshopei.debug.xcconfig"; path = "Target Support Files/Pods-autoshopei/Pods-autoshopei.debug.xcconfig"; sourceTree = "<group>"; };
+		F489C21B25EE36E98A542765 /* Pods_autoshopei_autoshopeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autoshopei_autoshopeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438E83312B682FAF0023AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A142A1BDE545C341394E18 /* Pods_autoshopei.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E83412B682FB00023AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75644BBCD35ED1FDA68D79F7 /* Pods_autoshopeiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E834B2B682FB00023AEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9FCE7E7BEF37F1AAD1EC40 /* Pods_autoshopei_autoshopeiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438E832B2B682FAF0023AEF9 = {
+			isa = PBXGroup;
+			children = (
+				438E83612B6835AA0023AEF9 /* GoogleService-Info.plist */,
+				438E83362B682FAF0023AEF9 /* autoshopei */,
+				438E83472B682FB00023AEF9 /* autoshopeiTests */,
+				438E83512B682FB00023AEF9 /* autoshopeiUITests */,
+				438E83352B682FAF0023AEF9 /* Products */,
+				FA4CED7EC1BD4304C5AE13CA /* Pods */,
+				F06460DAC1E502DACBF8903F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		438E83352B682FAF0023AEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438E83342B682FAF0023AEF9 /* autoshopei.app */,
+				438E83442B682FB00023AEF9 /* autoshopeiTests.xctest */,
+				438E834E2B682FB00023AEF9 /* autoshopeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438E83362B682FAF0023AEF9 /* autoshopei */ = {
+			isa = PBXGroup;
+			children = (
+				438E83372B682FAF0023AEF9 /* autoshopeiApp.swift */,
+				438E83632B6836A30023AEF9 /* OnboardingView.swift */,
+				438E83392B682FAF0023AEF9 /* ContentView.swift */,
+				438E83662B6836BC0023AEF9 /* CartView.swift */,
+				438E83672B6836BC0023AEF9 /* LoginView.swift */,
+				438E83652B6836BC0023AEF9 /* MyqrcodeView.swift */,
+				438E836B2B6836CA0023AEF9 /* PaymentSetupNoticeView.swift */,
+				438E836C2B6836CA0023AEF9 /* PaymentView.swift */,
+				438E83702B6836D20023AEF9 /* ShareButtonStyle.swift */,
+				438E836F2B6836D20023AEF9 /* SignupView.swift */,
+				438E833B2B682FAF0023AEF9 /* Assets.xcassets */,
+				438E833D2B682FAF0023AEF9 /* Preview Content */,
+			);
+			path = autoshopei;
+			sourceTree = "<group>";
+		};
+		438E833D2B682FAF0023AEF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				438E833E2B682FAF0023AEF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		438E83472B682FB00023AEF9 /* autoshopeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				438E83482B682FB00023AEF9 /* autoshopeiTests.swift */,
+			);
+			path = autoshopeiTests;
+			sourceTree = "<group>";
+		};
+		438E83512B682FB00023AEF9 /* autoshopeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438E83522B682FB00023AEF9 /* autoshopeiUITests.swift */,
+				438E83542B682FB00023AEF9 /* autoshopeiUITestsLaunchTests.swift */,
+			);
+			path = autoshopeiUITests;
+			sourceTree = "<group>";
+		};
+		F06460DAC1E502DACBF8903F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7152D1F867A81B5584585CA5 /* Pods_autoshopei.framework */,
+				F489C21B25EE36E98A542765 /* Pods_autoshopei_autoshopeiUITests.framework */,
+				64E5B36BFBAE3EB5D6EC5AD7 /* Pods_autoshopeiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4CED7EC1BD4304C5AE13CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15CCD416787A1C013DED42C /* Pods-autoshopei.debug.xcconfig */,
+				8D62AE060DDD8D90BAA72889 /* Pods-autoshopei.release.xcconfig */,
+				951E3DCD13ED2BFF15813C86 /* Pods-autoshopei-autoshopeiUITests.debug.xcconfig */,
+				4DFBD6C455FACAB5E3DF4F33 /* Pods-autoshopei-autoshopeiUITests.release.xcconfig */,
+				8325B0CAD5769E8D5FFE8DE0 /* Pods-autoshopeiTests.debug.xcconfig */,
+				AC85A082A41B6D8803CE9449 /* Pods-autoshopeiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438E83332B682FAF0023AEF9 /* autoshopei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E83582B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopei" */;
+			buildPhases = (
+				49BB9DB768C6EFDDB51C2553 /* [CP] Check Pods Manifest.lock */,
+				438E83302B682FAF0023AEF9 /* Sources */,
+				438E83312B682FAF0023AEF9 /* Frameworks */,
+				438E83322B682FAF0023AEF9 /* Resources */,
+				D3E3A625E096C61E1AF2EEC8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoshopei;
+			productName = autoshopei;
+			productReference = 438E83342B682FAF0023AEF9 /* autoshopei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438E83432B682FB00023AEF9 /* autoshopeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E835B2B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopeiTests" */;
+			buildPhases = (
+				24F8F9311F8EDA18A43CD76B /* [CP] Check Pods Manifest.lock */,
+				438E83402B682FB00023AEF9 /* Sources */,
+				438E83412B682FB00023AEF9 /* Frameworks */,
+				438E83422B682FB00023AEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438E83462B682FB00023AEF9 /* PBXTargetDependency */,
+			);
+			name = autoshopeiTests;
+			productName = autoshopeiTests;
+			productReference = 438E83442B682FB00023AEF9 /* autoshopeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438E834D2B682FB00023AEF9 /* autoshopeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438E835E2B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopeiUITests" */;
+			buildPhases = (
+				A570C76DAE4C998E668CEC84 /* [CP] Check Pods Manifest.lock */,
+				438E834A2B682FB00023AEF9 /* Sources */,
+				438E834B2B682FB00023AEF9 /* Frameworks */,
+				438E834C2B682FB00023AEF9 /* Resources */,
+				69CA03DBE0C5823C660D94A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438E83502B682FB00023AEF9 /* PBXTargetDependency */,
+			);
+			name = autoshopeiUITests;
+			productName = autoshopeiUITests;
+			productReference = 438E834E2B682FB00023AEF9 /* autoshopeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438E832C2B682FAF0023AEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					438E83332B682FAF0023AEF9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					438E83432B682FB00023AEF9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 438E83332B682FAF0023AEF9;
+					};
+					438E834D2B682FB00023AEF9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 438E83332B682FAF0023AEF9;
+					};
+				};
+			};
+			buildConfigurationList = 438E832F2B682FAF0023AEF9 /* Build configuration list for PBXProject "autoshopei" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438E832B2B682FAF0023AEF9;
+			productRefGroup = 438E83352B682FAF0023AEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438E83332B682FAF0023AEF9 /* autoshopei */,
+				438E83432B682FB00023AEF9 /* autoshopeiTests */,
+				438E834D2B682FB00023AEF9 /* autoshopeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438E83322B682FAF0023AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E833F2B682FAF0023AEF9 /* Preview Assets.xcassets in Resources */,
+				438E833C2B682FAF0023AEF9 /* Assets.xcassets in Resources */,
+				438E83622B6835AA0023AEF9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E83422B682FB00023AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E834C2B682FB00023AEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24F8F9311F8EDA18A43CD76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-autoshopeiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49BB9DB768C6EFDDB51C2553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-autoshopei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CA03DBE0C5823C660D94A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-autoshopei-autoshopeiUITests/Pods-autoshopei-autoshopeiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-autoshopei-autoshopeiUITests/Pods-autoshopei-autoshopeiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-autoshopei-autoshopeiUITests/Pods-autoshopei-autoshopeiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A570C76DAE4C998E668CEC84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-autoshopei-autoshopeiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E3A625E096C61E1AF2EEC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-autoshopei/Pods-autoshopei-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-autoshopei/Pods-autoshopei-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-autoshopei/Pods-autoshopei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438E83302B682FAF0023AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E83712B6836D20023AEF9 /* SignupView.swift in Sources */,
+				438E836A2B6836BC0023AEF9 /* LoginView.swift in Sources */,
+				438E83692B6836BC0023AEF9 /* CartView.swift in Sources */,
+				438E83722B6836D20023AEF9 /* ShareButtonStyle.swift in Sources */,
+				438E83682B6836BC0023AEF9 /* MyqrcodeView.swift in Sources */,
+				438E83642B6836A30023AEF9 /* OnboardingView.swift in Sources */,
+				438E833A2B682FAF0023AEF9 /* ContentView.swift in Sources */,
+				438E836E2B6836CA0023AEF9 /* PaymentView.swift in Sources */,
+				438E83382B682FAF0023AEF9 /* autoshopeiApp.swift in Sources */,
+				438E836D2B6836CA0023AEF9 /* PaymentSetupNoticeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E83402B682FB00023AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E83492B682FB00023AEF9 /* autoshopeiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438E834A2B682FB00023AEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438E83532B682FB00023AEF9 /* autoshopeiUITests.swift in Sources */,
+				438E83552B682FB00023AEF9 /* autoshopeiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438E83462B682FB00023AEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438E83332B682FAF0023AEF9 /* autoshopei */;
+			targetProxy = 438E83452B682FB00023AEF9 /* PBXContainerItemProxy */;
+		};
+		438E83502B682FB00023AEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438E83332B682FAF0023AEF9 /* autoshopei */;
+			targetProxy = 438E834F2B682FB00023AEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		438E83562B682FB00023AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		438E83572B682FB00023AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438E83592B682FB00023AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15CCD416787A1C013DED42C /* Pods-autoshopei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autoshopei/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AutoShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438E835A2B682FB00023AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D62AE060DDD8D90BAA72889 /* Pods-autoshopei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autoshopei/Preview Content\"";
+				DEVELOPMENT_TEAM = N6X8SACV7S;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AutoShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		438E835C2B682FB00023AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8325B0CAD5769E8D5FFE8DE0 /* Pods-autoshopeiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6X8SACV7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EI.autoshopeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoshopei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoshopei";
+			};
+			name = Debug;
+		};
+		438E835D2B682FB00023AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC85A082A41B6D8803CE9449 /* Pods-autoshopeiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6X8SACV7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EI.autoshopeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoshopei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoshopei";
+			};
+			name = Release;
+		};
+		438E835F2B682FB00023AEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951E3DCD13ED2BFF15813C86 /* Pods-autoshopei-autoshopeiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6X8SACV7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EI.autoshopeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = autoshopei;
+			};
+			name = Debug;
+		};
+		438E83602B682FB00023AEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFBD6C455FACAB5E3DF4F33 /* Pods-autoshopei-autoshopeiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6X8SACV7S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EI.autoshopeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = autoshopei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438E832F2B682FAF0023AEF9 /* Build configuration list for PBXProject "autoshopei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E83562B682FB00023AEF9 /* Debug */,
+				438E83572B682FB00023AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E83582B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E83592B682FB00023AEF9 /* Debug */,
+				438E835A2B682FB00023AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E835B2B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E835C2B682FB00023AEF9 /* Debug */,
+				438E835D2B682FB00023AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438E835E2B682FB00023AEF9 /* Build configuration list for PBXNativeTarget "autoshopeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438E835F2B682FB00023AEF9 /* Debug */,
+				438E83602B682FB00023AEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438E832C2B682FAF0023AEF9 /* Project object */;
+}
